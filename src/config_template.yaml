@@ -19,10 +19,10 @@ genomes:
         STAR:
             path: 
     hg19_ERCC: 
-        rRNApath: /sc/gaus/scratch/purusi01/hg19_ERCC/Homo_sapiens/UCSC/hg19/Annotation/Genes/hg19_rRNA.bed
+        rRNApath: 
         tophat2:  
-            gtf: /sc/gaus/scratch/purusi01/hg19_ERCC/Homo_sapiens/UCSC/hg19/Annotation/Genes/gencode.v19.annotation.gtf
-            index: /sc/gaus/scratch/purusi01/hg19_ERCC/Homo_sapiens/UCSC/hg19/Sequence/Bowtie2Index/genome_ERCC
+            gtf: 
+            index: 
         exonicPath: 
         intronicPath:
         intragenicPath:
@@ -30,12 +30,12 @@ genomes:
         STAR:
             path:
     mm9: 
-        rRNApath: /sc/orga/work/purusi01/mm10/rRNA.bed
+        rRNApath: 
         tophat2:  
-            gtf: /sc/orga/work/purusi01/mm9/genes.gtf
-            index: /sc/orga/work/purusi01/mm9/Bowtie2Index/genome
-        exonicPath: /sc/orga/work/purusi01/mm10/gencode_v14_exon_merged.bed
-        intronicPath: /sc/orga/work/purusi01/mm10/gencode_v14_intron.bed
+            gtf: 
+            index: 
+        exonicPath: 
+        intronicPath: 
         intragenicPath:
         intergenicPath:
         STAR:
